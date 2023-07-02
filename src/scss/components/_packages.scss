@@ -1,0 +1,65 @@
+.packages {
+  background-color: #F8F8F8;
+  padding-bottom: 200px;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    position: relative;
+    background-color: var(--light-color);
+    padding: 45px 31px;
+
+    height: 577px;
+  }
+
+  &__subtitle {
+    text-align: center;
+    margin-bottom: 58px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    color: var(--main-color);
+  }
+
+  &__pluses {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+
+
+  }
+
+  &__price {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 45px;
+    left: calc(50% - 30px);
+    color: var(--main-color)
+  }
+
+  &__number {
+    margin-right: 5px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+
+  }
+
+  &__dolr {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: var(--main-color);
+  }
+}

@@ -1,0 +1,40 @@
+.header {
+  position: relative;
+  padding-top: 35px;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+.nav {
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 45px;
+    }
+  }
+
+  &__link {
+
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    color: var(--light-color);
+  }
+}
+
+.logo {
+
+  margin-right: 185px;
+
+  &--footer {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+  }
+}
